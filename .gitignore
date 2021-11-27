@@ -1,0 +1,6 @@
+
+# Virtual Environment Folder
+venv
+
+# Cached Python files
+/__pycache__
