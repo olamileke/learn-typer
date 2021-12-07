@@ -11,6 +11,6 @@ def create(name: str):
 def delete(name: str): 
     typer.echo(f"Deletijng user: {name}")
 
-@app.callback()
+@app.callback(invoke_without_command=True)
 def callback(ctx: typer.Context):
     typer.echo(f"Executing command: {ctx.invoked_subcommand}")
